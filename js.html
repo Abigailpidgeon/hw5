@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+  <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attributes and styles of values it can also hide values.</p>
+
+<p id="joke">Click for a joke.</p>
+
+<button type="button" onclick='document.getElementById("joke").innerHTML = "99 little bugs in the code, 99 little bugs, you take one down and patch it around, 125 little bugs in the code!"'>Click Me!</button>
+</div>
+
+<div>
+
+<button onclick="document.getElementById('myImage').src='duckwalking.gif'">Start Walking</button>
+
+<img id="myImage" src="duckwalking.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='duckwalking.gif'">Stop Walking</button>
+
+</div>
+
+<div>
+  <p id="scare">Boo.</p>
+
+<button type="button" onclick="document.getElementById('scare').style.fontSize='120px'">Click if you dare!</button>
+</div>
+
+<div>
+  <p id="magic">Now you see me now you....</p>
+
+<button type="button" onclick="document.getElementById('magic').style.display='none'">Magic Button!</button>
+</div>
+
+<div>
+  <p id="joke2" style="display:none">; The Ultimate Hide and Seek Champion!</p>
+
+<button type="button" onclick="document.getElementById('joke2').style.display='block'">click for a joke!</button>
+</div>
+  
+</body>
+</html>
